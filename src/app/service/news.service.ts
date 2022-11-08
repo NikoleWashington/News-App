@@ -5,7 +5,7 @@ import{HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class NewsService {
-  api_key = "4649f8eb54174960b987ad964243eb80";
+  api_key = 
   constructor(private http: HttpClient) { }
 
   initSources(){
